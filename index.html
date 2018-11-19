@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Music Player</title>
+  <style>
+    body { background: #2c3e50; color: white; height: 100vh; display: flex; justify-content: center; align-items: center; margin: 0; }
+    .player { width: 300px; background: #34495e; padding: 20px; border-radius: 20px; text-align: center; }
+    .cover { width: 200px; height: 200px; background: #ddd; border-radius: 50%; margin: 0 auto 20px; }
+    .progress { height: 5px; background: #555; border-radius: 5px; margin: 20px 0; overflow: hidden; }
+    .bar { height: 100%; width: 30%; background: #00d2d3; }
+    .controls { display: flex; justify-content: center; gap: 20px; font-size: 1.5em; }
+  </style>
+</head>
+<body>
+  <div class="player">
+    <div class="cover"></div>
+    <h3>Song Title</h3>
+    <p>Artist Name</p>
+    <div class="progress"><div class="bar"></div></div>
+    <div class="controls">
+      <span>Previous</span>
+      <span>Play</span>
+      <span>Next</span>
+    </div>
+  </div>
+</body>
+</html>
